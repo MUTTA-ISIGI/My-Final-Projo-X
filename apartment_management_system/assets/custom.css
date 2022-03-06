@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background: url("image/house-g37c893490_1920.jpg") no-repeat center fixed;
+
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background: green;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #f9f7ef;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #f9f7ef;
+}
+.active,.menu-bar ul li:hover{
+    background:darkseagreen;
+    border-radius: 3px;
+}
+.log-box{
+    max-width: 700px;
+    float:none ;
+    margin: 150px auto;
+}
+.log-centre{
+    background:darkseagreen ;
+    padding: 30px;
+}
+.form-control{
+    background-color: transparent;
+}
+.container,a{
+    color: white;
+    margin-top: -14px;
+}
+.container,h4{
+    margin-top: 25px;
+    color: chartreuse;
+}
+.menu-bar-2{
+    background: green;
+    text-align: center;
+}
+.main-menu{
+    margin-top: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 70vh;
+    background-color:green;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.menu-item{
+    color: white;
+}
+.menu-item a:hover{
+    color: chartreuse;
+}
+
+
+.menu-item:hover{
+    background-color: seagreen;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 170px;
+
+}
